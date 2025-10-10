@@ -1,8 +1,10 @@
-const Home = async () => {
+'use client';
+
+import PinCode from '@/components/PinCode';
+
+const Home = () => {
     return (
-        <div className="container mx-auto  px-4">
-            <h1>ciao</h1>
-        </div>
+        <PinCode onComplete={(code) => console.log('Codice inserito:', code)} />
     );
 };
 
