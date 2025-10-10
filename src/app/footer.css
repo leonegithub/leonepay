@@ -1,0 +1,11 @@
+footer {
+    line-height: 1;
+    font-size: 14px;
+    .socials-list {
+        font-size: 25px;
+    }
+}
+
+footer a {
+    text-decoration: none;
+}
