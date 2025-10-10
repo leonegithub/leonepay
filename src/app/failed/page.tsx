@@ -20,7 +20,7 @@ export default function Failure() {
 
         {/* Sottotitolo */}
         <h2 className="text-xl mb-4 blue">
-          Si è verificato un problema durante l'elaborazione del pagamento
+          Si è verificato un problema durante l&apos;elaborazione del pagamento
         </h2>
 
         {/* Descrizione */}

@@ -25,7 +25,7 @@ export default function Success() {
 
         {/* Descrizione */}
         <p className="text-gray-600 mb-8 leading-relaxed">
-          Riceverai una email di conferma a breve. Puoi trovare i tuoi acquisti nella sezione 'Acquistati' della tua area personale.
+          Riceverai una email di conferma a breve. Puoi trovare i tuoi acquisti nella sezione <em>Acquistati</em> della tua area personale.
         </p>
 
         {/* Pulsante */}
@@ -33,7 +33,7 @@ export default function Success() {
           onClick={() => window.location.href = '/personal-area'}
           className="bg-blue text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity font-medium"
         >
-          Vai all'Area Personale
+          Vai all&apos;Area Personale
         </button>
       </div>
     </main>
