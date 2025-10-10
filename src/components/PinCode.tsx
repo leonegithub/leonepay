@@ -99,7 +99,7 @@ export default function PinCode({ length = 4, onComplete }: PinCodeProps) {
                         onChange={(e) => handleChange(index, e.target.value)}
                         onKeyDown={(e) => handleKeyDown(index, e)}
                         onPaste={handlePaste}
-                        className="w-16 h-20 text-center text-3xl font-semibold border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition-all duration-200 bg-white uppercase"
+                        className="w-16 h-20 text-center text-3xl font-semibold border-2 border-gray-300 rounded-xl focus:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 transition-all duration-200 bg-white uppercase"
                     />
                 ))}
             </div>
