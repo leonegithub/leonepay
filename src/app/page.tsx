@@ -1,11 +1,11 @@
 'use client';
 
-import PinCode from '@/components/PinCode';
+import SendCode from "@/app/[code]/page";
 
 const Home = () => {
-    return (
-        <PinCode onComplete={(code) => console.log('Codice inserito:', code)} />
-    );
+  return (
+      <SendCode />
+  )
 };
 
 export default Home;

@@ -29,10 +29,10 @@ export default function Header() {
     return (
         <>
             <header className="flex items-center justify-center">
-                <div className="container mx-auto px-4 flex items-center justify-between w-full">
+                <div className="container mx-auto flex items-center justify-between w-full">
                     <div className="logo">
                         <Link href={`/`}>
-                            <Image src={logoLeone} width={100} alt="logo-leone" />
+                            <Image src={logoLeone} width={125} alt="logo-leone" />
                         </Link>
                     </div>
                     <nav className="nav-menu flex-1 flex justify-center">
