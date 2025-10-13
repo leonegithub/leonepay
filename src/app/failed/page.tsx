@@ -25,7 +25,8 @@ export default function Failure() {
 
         {/* Descrizione */}
         <p className="text-gray-600 mb-8 leading-relaxed">
-          Il tuo pagamento non è stato completato. Nessun addebito è stato effettuato sul tuo conto. Puoi riprovare o contattare il nostro supporto per assistenza.
+          Il tuo pagamento non è stato completato. Nessun addebito è stato effettuato sul tuo conto.
+           <br/> Contattaci per ricevere assistenza
         </p>
 
         {/* Pulsanti */}
@@ -38,7 +39,7 @@ export default function Failure() {
           </button>
 
           <button
-            onClick={() => window.location.href = '/azienda/contatti'}
+            onClick={() => window.location.href = '/supporto'}
             className="w-full border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors font-medium"
           >
             Contatta Supporto

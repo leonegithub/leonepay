@@ -29,7 +29,7 @@ export default function Header() {
     return (
         <>
             <header className="flex items-center justify-center">
-                <div className="container mx-auto flex items-center justify-between w-full">
+                <div className="container px-4 mx-auto flex items-center justify-between w-full">
                     <div className="logo">
                         <Link href={`/`}>
                             <Image src={logoLeone} width={125} alt="logo-leone" />
