@@ -33,14 +33,14 @@ export default function Failure() {
         <div className="space-y-3">
           <button
             onClick={() => window.location.href = "/"}
-            className="w-full bg-blue text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity font-medium"
+            className="w-full cursor-pointer bg-blue text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity font-medium"
           >
             Riprova
           </button>
 
           <button
             onClick={() => window.location.href = '/supporto'}
-            className="w-full border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+            className="w-full cursor-pointer border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors font-medium"
           >
             Contatta Supporto
           </button>
