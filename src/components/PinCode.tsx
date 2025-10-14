@@ -81,7 +81,7 @@ export default function PinCode({ length = 4, onComplete }: PinCodeProps) {
         <div className="flex flex-col items-center justify-center py-20 bg-white">
             <div className="text-center mb-8">
                 <h1 className="text-3xl font-semibold text-gray-900 mb-2">
-                    Inserisci il codice
+                    Paga la tua fattura
                 </h1>
                 <p className="text-gray-500">
                     Digita il codice a 4 caratteri
