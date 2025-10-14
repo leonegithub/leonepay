@@ -32,7 +32,7 @@ function Supporto(){
         }
 
         try {
-            const response = await fetch(url, fetchOptions)
+            const response = await fetch(url, fetchOptions);
             const result = await response.json();
             setData(result);
             console.log(data);
