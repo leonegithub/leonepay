@@ -2,6 +2,7 @@
 
 import React, { useState} from "react";
 import { ToastContainer, toast} from "react-toastify";
+import Link from "next/link";
 
 type Response = {
     "ExitCode": number,
@@ -46,8 +47,23 @@ function Supporto(){
         }
     }
     return (
-        <form className="container  mx-auto px-4 bg-white rounded-lg mt-10 mb-10" onSubmit={HandleSubmit}>
-            <h1 className="font-bold blue pt-15 my-5">Contattaci</h1>
+        <form className="container pt-10  mx-auto px-4 bg-white rounded-lg mt-10 mb-10" onSubmit={HandleSubmit}>
+
+
+                    <nav aria-label="breadcrumb">
+                        <ol className="flex items-center space-x-2 text-sm text-gray-500">
+                            <li>
+                                <Link href={"/"} className="hover:underline text-blue-600 font-medium">Home</Link>
+                            </li>
+                            <li>
+                                <span className="mx-2">/</span>
+                            </li>
+                            <li className="text-gray-400">Pagamento Fallito</li>
+                        </ol>
+                    </nav>
+
+
+            <h1 className="font-bold blue  my-5">Contattaci</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
                 <div>

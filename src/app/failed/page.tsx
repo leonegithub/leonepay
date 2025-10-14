@@ -32,7 +32,7 @@ export default function Failure() {
         {/* Pulsanti */}
         <div className="space-y-3">
           <button
-            onClick={() => window.history.back()}
+            onClick={() => window.location.href = "/"}
             className="w-full bg-blue text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity font-medium"
           >
             Riprova
