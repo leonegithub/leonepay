@@ -13,23 +13,23 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Servizi</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/it/servizi/downloads`}>Downloads</Link>
+                                        <Link href={`https://leoneit-next.vercel.app/it/servizi/downloads`}>Downloads</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/servizi/newslist`}>Newslist</Link>
+                                        <Link href={`https://leoneit-next.vercel.app/it/servizi/newslist`}>Newslist</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/servizi/assistenza-clienti`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/servizi/assistenza-clienti`}>
                                             Assistenza clienti
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/login`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/login`}>
                                             Area Riservata
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/azienda/whistleblowing`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/azienda/whistleblowing`}>
                                             Whistleblowing
                                         </Link>
                                     </li>
@@ -41,12 +41,12 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Pubblicazioni scientifiche</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/it/pubblicazioni/ortodonzia`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/pubblicazioni/ortodonzia`}>
                                             Ortodonzia
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/pubblicazioni/implantologia`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/pubblicazioni/implantologia`}>
                                             Implantologia
                                         </Link>
                                     </li>
@@ -58,13 +58,13 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Qualità</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/it/qualita/sistema-di-qualita`}>Sistema di Qualità</Link>
+                                        <Link href={`https://leoneit-next.vercel.app/it/qualita/sistema-di-qualita`}>Sistema di Qualità</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/qualita/schede-di-sicurezza`}>Schede di Sicurezza</Link>
+                                        <Link href={`https://leoneit-next.vercel.app/it/qualita/schede-di-sicurezza`}>Schede di Sicurezza</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/qualita/istruzioni`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/qualita/istruzioni`}>
                                             Istruzioni
                                         </Link>
                                     </li>
@@ -76,12 +76,12 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Distributori</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/it/distributori/ortodonzia`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/distributori/ortodonzia`}>
                                             Ortodonzia
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/it/distributori/implantologia`}>
+                                        <Link href={`https://leoneit-next.vercel.app/it/distributori/implantologia`}>
                                             Implantologia
                                         </Link>
                                     </li>
