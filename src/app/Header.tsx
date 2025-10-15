@@ -13,6 +13,7 @@ import {
     getOptions1,
     getOptions2,
     getOptions3,
+    getOptions4
 } from "@/components/header-options";
 
 export default function Header() {
@@ -22,6 +23,7 @@ export default function Header() {
     const options1 = getOptions1();
     const options2 = getOptions2();
     const options3 = getOptions3();
+    const options4 = getOptions4();
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -38,19 +40,16 @@ export default function Header() {
                     <nav className="nav-menu flex-1 flex justify-center">
                         <ul className="xl:flex  items-center space-x-4">
                             <li>
-                                <DropdownComponent options={options1} dropdownLabel="Company" />
+                                <DropdownComponent options={options1} dropdownLabel="Azienda" />
                             </li>
                             <li>
-                                <DropdownComponent options={options2} dropdownLabel="Products" />
+                                <DropdownComponent options={options2} dropdownLabel="Ortodonzia" />
                             </li>
                             <li>
-                                <Link href={`/orders`}>Orders</Link>
+                                <DropdownComponent options={options3} dropdownLabel="Implantologia" />
                             </li>
                             <li>
-                                <DropdownComponent options={options3} dropdownLabel="Support" />
-                            </li>
-                            <li>
-                                <Link href={`/events`}>Events</Link>
+                                <DropdownComponent options={options4} dropdownLabel="Corsi ed Eventi" />
                             </li>
                         </ul>
                     </nav>
@@ -86,6 +85,12 @@ export default function Header() {
                                     <AccordionComponent
                                         options={options1}
                                         accordionLabel="Company"
+                                    />
+                                </li>
+                                <li>
+                                    <AccordionComponent
+                                        options={options2}
+                                        accordionLabel="Orthodontics"
                                     />
                                 </li>
                                 <li>
