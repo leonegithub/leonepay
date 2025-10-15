@@ -1,11 +1,25 @@
 footer {
+    min-height: 200px;
     line-height: 1;
     font-size: 14px;
     .socials-list {
         font-size: 25px;
     }
+
+    .row {
+        align-items: start;
+    }
 }
 
 footer a {
     text-decoration: none;
+}
+
+.footer-griglia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-first-section {
+    padding: 50px 0;
 }
