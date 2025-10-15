@@ -13,23 +13,23 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Servizi</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={"/services/downloads"}>Downloads</Link>
+                                        <Link href={`/it/servizi/downloads`}>Downloads</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/services/newlist`}>Newlist</Link>
+                                        <Link href={`/it/servizi/newslist`}>Newslist</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/services/customer-support`}>
+                                        <Link href={`/it/servizi/assistenza-clienti`}>
                                             Assistenza clienti
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/services/customer-support`}>
+                                        <Link href={`/it/login`}>
                                             Area Riservata
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/services/customer-support`}>
+                                        <Link href={`/it/azienda/whistleblowing`}>
                                             Whistleblowing
                                         </Link>
                                     </li>
@@ -41,12 +41,12 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Pubblicazioni scientifiche</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/products/publications`}>
+                                        <Link href={`/it/pubblicazioni/ortodonzia`}>
                                             Ortodonzia
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/products/publications`}>
+                                        <Link href={`/it/pubblicazioni/implantologia`}>
                                             Implantologia
                                         </Link>
                                     </li>
@@ -58,13 +58,13 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Qualità</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/quality/quality-system`}>Sistema di Qualità</Link>
+                                        <Link href={`/it/qualita/sistema-di-qualita`}>Sistema di Qualità</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/quality/safety-sheets`}>Schede di Sicurezza</Link>
+                                        <Link href={`/it/qualita/schede-di-sicurezza`}>Schede di Sicurezza</Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/products/publications`}>
+                                        <Link href={`/it/qualita/istruzioni`}>
                                             Istruzioni
                                         </Link>
                                     </li>
@@ -76,12 +76,12 @@ export default function Footer() {
                                 <div className="mb-1 font-bold">Distributori</div>
                                 <ul className="m-0 list-none pl-0">
                                     <li className="mb-1">
-                                        <Link href={`/distributors/worldwide`}>
+                                        <Link href={`/it/distributori/ortodonzia`}>
                                             Ortodonzia
                                         </Link>
                                     </li>
                                     <li className="mb-1">
-                                        <Link href={`/products/publications`}>
+                                        <Link href={`/it/distributori/implantologia`}>
                                             Implantologia
                                         </Link>
                                     </li>
